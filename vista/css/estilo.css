@@ -1,0 +1,91 @@
+
+header{
+       position: relative;
+       margin: auto;
+       text-align: center;
+       padding: 5px;
+
+		}
+
+		nav{
+			position:relative;
+			margin: auto;
+			width: 100%;
+			height: auto;
+			background: black;
+
+		}
+
+		nav ul{
+			position: relative;
+			margin: auto;
+			width: 50%;
+			text-align: center;
+
+
+		}
+		nav ul li{
+
+			display: inline-block;
+			width: 24%;
+			line-height: 50px;
+			list-style: none;
+
+		}
+
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+		}
+
+		section{
+			position: relative;
+			padding: 20px;
+		}
+
+		table{
+	     width: 100%;
+
+		}
+
+		h1{
+			text-align: center;
+		}
+		form{
+			   width: 100%;
+
+               text-align: center;
+		}
+
+		form input{
+			 width: 100%;
+
+               text-align: center;
+              position: center;
+              border-right: 20%;
+		}
+
+
+		#button{
+			width: 10%;
+   text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0; 
+		}
+		
+			#button2{
+	width: 70%;
+   text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 1px;
+    border: 2px solid #0016b0; 
+
+		}
