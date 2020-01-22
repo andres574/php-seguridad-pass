@@ -52,7 +52,7 @@ class mvcController{
 
        
          if($respuesta == "exito"){
-         	header("location:index.php?action=ok");
+         	header("location:ok");
          }
 
          else{
@@ -103,7 +103,7 @@ public function ingresoUsuariosControl(){
        	session_start();
        	$_SESSION["validar"]= true;
 
-          header("location:index.php?action=usuarios");
+          header("location:usuarios");
 
        }
 
@@ -117,7 +117,7 @@ public function ingresoUsuariosControl(){
 
 
 
-       	header("location:index.php?action=fallo");
+       	header("location:fallo");
 
 
          }
@@ -129,7 +129,7 @@ public function ingresoUsuariosControl(){
           	$datosControl = array("usuarioActual"=>$usuario,"actualizarintentos" =>$intentos);
           	$respuestaActualizarintentos = Datos::intentosUsuarioModelo($datosControl,"usuarios");
 
-          	header("location:index.php?action=fallo3intentos");
+          	header("location:fallo3intentos");
 
 
           }
@@ -202,7 +202,7 @@ public function ingresoUsuariosControl(){
 
        
          if($respuesta == "exito"){
-         	header("location:index.php?action=cambio");
+         	header("location:cambio");
          }
 
          else{
@@ -222,7 +222,7 @@ public function ingresoUsuariosControl(){
 			$respuesta = Datos::borrarUsuariomodelo($datosControl,"usuarios");
 
 			if ($respuesta == "borrado") {
-				header("location:index.php?action=usuarios");
+				header("location:usuarios");
 			}
 
 			// else{
@@ -234,7 +234,5 @@ public function ingresoUsuariosControl(){
 
 
 }
-
-
 
  ?>

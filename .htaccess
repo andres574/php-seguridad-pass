@@ -1,0 +1,10 @@
+#inmpesir  que se pueda ver el listado de los contenidos de los directorios 
+
+Options All -Indexes
+
+#URLS AMIGABLES
+
+#Activar  rewriteEngine
+
+RewriteEngine on
+RewriteRule ^(\w+)$ index.php?action=$1
